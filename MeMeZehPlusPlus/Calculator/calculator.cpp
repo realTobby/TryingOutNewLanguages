@@ -1,25 +1,10 @@
 #include "iostream"
 using namespace std;
 
-int addition(int a, int b)
-{
-	return a + b;
-}
-
-int substract(int a, int b)
-{
-	return a - b;
-}
-
-int multiply(int a, int b)
-{
-	return a * b;
-}
-
-int divide(int a, int b)
-{
-	return a / b;
-}
+int addition(int a, int b);
+int substract(int a, int b);
+int multiply(int a, int b);
+int divide(int a, int b);
 
 int main()
 {
@@ -54,5 +39,24 @@ int main()
     return 0;
 }
 
+int addition(int a, int b)
+{
+	return a + b;
+}
+
+int substract(int a, int b)
+{
+	return a - b;
+}
+
+int multiply(int a, int b)
+{
+	return a * b;
+}
+
+int divide(int a, int b)
+{
+	return a / b;
+}
 
 
