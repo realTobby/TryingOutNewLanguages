@@ -11,9 +11,9 @@ int main() {
   int b;
   
   
-  cout << "Erste Zahl: " << endl;
+  cout << "Erste Zahl: " ;
   cin >> a;
-  cout << "Zweite Zahl: " << endl;
+  cout << "Zweite Zahl: ";
   cin >> b;
   
   int result = Addition(a, b);
