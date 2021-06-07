@@ -7,10 +7,18 @@ class Fruit {
 		int weight;
 		string name;
 		bool ispeeled;
+		
+		Fruit(){
+			cout << "Eine Frucht wurde erstellt!" << endl;
+		}
 };
 
 class FruitFactory {	
 	public:
+		FruitFactory() {
+			cout << "Die Fruchtfabrik wurde erstellt!" << endl;
+		}
+	
 		Fruit CreateFruit(string name, string color, int weight) {
 			Fruit obj;
 			obj.color = color;
